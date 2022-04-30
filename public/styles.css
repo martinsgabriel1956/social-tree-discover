@@ -11,8 +11,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  max-width: 1440px;
-
   background-color: var(--body-bg-color);
 }
 
@@ -23,6 +21,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  min-height: 100vh;
 }
 
 .avatar-container {
